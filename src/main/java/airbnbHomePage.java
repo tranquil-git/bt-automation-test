@@ -45,6 +45,11 @@ public class airbnbHomePage {
         WebElement row2Col1= chromeDriver.findElement(By.xpath("//div[@class='oxd-table-card'][2]/div[@role='row']/div[2]"));
         //13
         WebElement row2Col2 = chromeDriver.findElement(By.xpath("//div[@class='oxd-table-card'][2]/div[@role='row']/div[3]"));
+        //14
+        WebElement row2RemoveButton = chromeDriver.findElement(By.xpath("//div[@class='oxd-table-card'][2]/div[@role='row']/div[6]/div[@class='oxd-table-cell-actions']/button/i[@class='oxd-icon bi-trash']"));
+        //15
+        WebElement row2EditButton = chromeDriver.findElement(By.xpath("//div[@class='oxd-table-card'][2]/div[@role='row']/div[6]/div[@class='oxd-table-cell-actions']/button/i[@class='oxd-icon bi-pencil-fill']"));
+        
 
 
 

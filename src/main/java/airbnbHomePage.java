@@ -8,10 +8,6 @@ import org.openqa.selenium.support.ui.FluentWait;
 import java.time.Duration;
 
 public class airbnbHomePage {
-
-
-
-
     public static void main(String[] args){
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});

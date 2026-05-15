@@ -10,11 +10,13 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:6.0.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
-    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation("org.seleniumhq.selenium:selenium-java:4.43.0")
+    testImplementation("org.testng:testng:7.11.0")
 }
 
 test {
-    useJUnitPlatform()
+    useTestNG(){
+        useDefaultListeners = true //dùng để tạo report testNG
+        outputDirectory = file("$projectDir/test_output") // folder chứa testNG report
+    }
 }

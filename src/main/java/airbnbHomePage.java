@@ -16,47 +16,7 @@ public class airbnbHomePage {
 
         //Element
         //1
-        WebElement adminTab = chromeDriver.findElement(By.xpath("//a[@href='/web/index.php/admin/viewAdminModule']"));
-        //2
-        WebElement pimTab = chromeDriver.findElement(By.xpath("//a[@href='/web/index.php/pim/viewPimModule']"));
-        //3
-        WebElement leaveTab = chromeDriver.findElement(By.xpath("//a[@href='/web/index.php/leave/viewLeaveModule']"));
-        //4
-        WebElement txtLoginAccount = chromeDriver.findElement(By.xpath("//*[@id='app']/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/input"));
-        //5
-        WebElement dropdownListUserRole = chromeDriver.findElement(By.xpath("*[@id='app']/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div"));
-        //6
-
-        //7
-
-        //8
-        WebElement txtEmployeeName = chromeDriver.findElement(By.xpath("*[@id='app']/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div"));
-        //9
-        WebElement btnReset = chromeDriver.findElement(By.xpath("//div[@class='oxd-form-actions']/button[@class='oxd-button oxd-button--medium oxd-button--ghost']"));
-        //10
-        WebElement btnSearch = chromeDriver.findElement(By.xpath("//div[@class='oxd-form-actions']/button[@type='submit' and @class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"));
-        //11
-        WebElement tabUserMng = chromeDriver.findElement(By.xpath("//span[@class='oxd-topbar-body-nav-tab-item' and text()='User Management ']"));
-        //12
-        WebElement row2Col1= chromeDriver.findElement(By.xpath("//div[@class='oxd-table-card'][2]/div[@role='row']/div[2]"));
-        //13
-        WebElement row2Col2 = chromeDriver.findElement(By.xpath("//div[@class='oxd-table-card'][2]/div[@role='row']/div[3]"));
-        //14
-        WebElement row2RemoveButton = chromeDriver.findElement(By.xpath("//div[@class='oxd-table-card'][2]/div[@role='row']/div[6]/div[@class='oxd-table-cell-actions']/button/i[@class='oxd-icon bi-trash']"));
-        //15
-        WebElement row2EditButton = chromeDriver.findElement(By.xpath("//div[@class='oxd-table-card'][2]/div[@role='row']/div[6]/div[@class='oxd-table-cell-actions']/button/i[@class='oxd-icon bi-pencil-fill']"));
-        //16
-        WebElement sortIconUserRole = chromeDriver.findElement(By.xpath("//i[@*]/preceding::div[text()='User Role']/div[@class='oxd-table-header-sort']"));
-        //17
-        WebElement sortIconEmployeeName = chromeDriver.findElement(By.xpath("//i[@*]/preceding::div[text()='Employee Name']/div[@class='oxd-table-header-sort']"));
-        //18
-        WebElement titleAdminTab = chromeDriver.findElement(By.xpath("//span[@class='oxd-topbar-header-breadcrumb']"));
-        //19
-        WebElement btnChevronMenu = chromeDriver.findElement(By.xpath("//button[@class='oxd-icon-button oxd-main-menu-button']"));
-        //20
-        WebElement btnAdminTable = chromeDriver.findElement(By.xpath("//div[@class='--toggle']/button[@class='oxd-icon-button']"));
-        //21
-        WebElement btnAdd = chromeDriver.findElement(By.xpath("//div[@class='orangehrm-header-container']/button[@class='oxd-button oxd-button--medium oxd-button--secondary']"));
+        WebElement airbnbLogo = chromeDriver.findElement(By.xpath("//a[@aria-current='page']/span*));
 
 
 

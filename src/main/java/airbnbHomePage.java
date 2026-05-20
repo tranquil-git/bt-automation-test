@@ -34,6 +34,7 @@ public class airbnbHomePage {
         //9
         WebElement removeBtn = chromeDriver.findElement(By.xpath("//div[@class='flex justify-between items-center gap-3']/button/div[text()='-']"));
         //10
+        WebElement hcmSelection = chromeDriver.findElement(By.xpath("//div[@class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6']/a[1]"));
         //11
         WebElement canThoLbl = chromeDriver.findElement(By.xpath("//div[@class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6']/a[2]/div/div/div[@class='flex items-center gap-3']/div/h2[text()='Cần Thơ']"));
         //12
